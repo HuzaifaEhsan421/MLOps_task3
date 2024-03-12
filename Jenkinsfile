@@ -9,7 +9,7 @@ pipeline {
                 }
             }
         }
-        stage('Install dependencies') {
+        stage('Installing dependencies') {
             steps {
                 bat 'pip install -r requirements.txt'
             }
